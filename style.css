@@ -1,0 +1,306 @@
+
+#titulo{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 7rem;
+    padding: 1rem;
+    
+}
+#simbol{
+    width: 5rem;
+    position: relative;
+    
+}
+.miembros{
+    width: 40%;
+    display: inline-block;
+}
+.rhcp{
+    margin: 5%;
+}
+.papel{
+   width: 100%;
+
+}
+#curiosidades{
+    font-size: 6rem;
+    position: absolute;
+    transform: rotate(-6deg);
+    top: 1480px;
+    left: 100px;
+    
+    
+}
+.textoinicial{
+    position: absolute;
+    top: 1100px;
+    left: 930px;
+    width: 320px;
+    text-align: right;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.sonido{
+    position: absolute;
+    top: 1260px;
+    left: 950px;
+    width: 300px;
+    
+}
+#notas{
+    position:absolute;
+    top: 1710px;
+    display: flex;
+    margin: 0 auto;
+    font-size: x-small;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    justify-content: space-around;
+
+}
+.notas{
+    margin: 10px;
+    padding: 10px;
+    width: 15%;
+}
+.nota1,.nota3{
+    margin-top: 100px;
+}
+.nota2{
+    margin-top: 50px;
+}
+#biografia{
+    font-size: 6rem;
+    position: absolute;
+    transform: rotate(4deg);
+    top: 2180px;
+    left: 700px;
+}
+#seccion3{
+    display: flex;
+}
+.imagen3{
+    max-width: 50%;
+}
+.historia{
+    font-size: 1.6rem;
+    padding: 2%;
+    margin-right: 50px;
+    margin-top: 110px;
+    text-align: right;
+   
+}
+.titulo4{
+    font-size: 6rem;
+    display: inline-block;
+    transform: rotate(-6deg);
+    padding: 20px;
+    margin-left: 0px;
+    margin: 20px;
+    text-align: center;
+    
+    
+}
+.cinta{
+    width: 20%;
+    padding: 0 20px;
+    margin: 0 60px;
+}
+
+.albums{
+    display: flex;
+    margin: 2px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.album{
+    width: 100%;
+}
+.album1, .album3, .album5{
+    margin-top: 100px;
+} 
+figure{
+    width: 15%;
+    margin: 1px;
+    padding: 1px;
+}
+.audio{
+   
+    width: 220px;
+}
+
+#pie{
+    position: relative;
+    text-align: center;
+    z-index: 8;
+    margin-top: 100px;
+}
+ /* mobile styles */
+ @media only screen and (max-width: 800px) {  
+    #titulo{
+        font-size: 3rem;
+    }
+    #simbol{
+        width: 2.5rem;
+    }
+  #curiosidades{
+    position: absolute;
+    top: 860px;
+    left: 15px;
+    font-size: 4rem;
+  }
+  .textoinicial{
+    position: absolute;
+    top:640px;
+    left: 550px;
+    width: 200px;
+    font-size: 1rem;
+  }
+  .sonido{
+    position: absolute;
+    top: 740px;
+    left: 540px;
+    width: 230px;
+}
+#notas{
+    position:absolute;
+    top: 1000px;
+    display: flex;
+    margin: 0 auto;
+    font-size: small;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-around;
+}
+.nota1,.nota3{
+    margin-top: 80px;
+}
+#biografia{
+    font-size: 4rem;
+    position: absolute;
+    transform: rotate(4deg);
+    top: 1280px;
+    left: 50px;
+}
+.imagen3{
+    margin-top: 30px;
+    max-width: 50%;
+}
+.historia{
+    font-size: 1rem;
+    padding: 2%;
+    margin-right: 50px;
+    margin-top: 60px;
+    text-align: right;
+   
+}
+.titulo4{
+    font-size: 3rem;
+    display: inline-block;
+    transform: rotate(-6deg);
+    padding: 20px;
+    margin-left: 0px;
+    margin: 20px;
+    text-align: center;
+}
+.cinta{
+    width: 20%;
+    padding: 0 20px;
+    margin: 0 60px;
+}
+.audio{
+    height: 30px;
+    width: 130px;
+}
+ }
+ 
+ /* mobile styles */
+ @media only screen and (max-width: 400px) {  
+    #titulo{
+        font-size: 2.5rem;
+    }
+    #simbol{
+        width: 2rem;
+    }
+  #curiosidades{
+    position: absolute;
+    top: 495px;
+    left: 10px;
+    font-size: 2rem;
+  }
+  .textoinicial{
+    position: absolute;
+    top: 400px;
+    left: 270px;
+    width: 90px;
+    font-size: 0.5rem;
+  }
+  .sonido{
+    position: absolute;
+    top: 465px;
+    left: 270px;
+    height: 20px;
+    width: 100px;
+}
+#notas{
+    position:absolute;
+    top: 510px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 45%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-around;
+}
+.nota1,.nota3{
+    margin-top: 80px;
+}
+.nota4{
+    margin-top: 45px;
+}
+.nota2{
+    margin-top: 65px;
+}
+#biografia{
+    font-size: 2rem;
+    position: absolute;
+    transform: rotate(4deg);
+    top: 690px;
+    left: 20px;
+}
+.imagen3{
+    margin-top: 30px;
+    max-width: 50%;
+}
+.historia{
+    font-size: 0.5rem;
+    padding: 2%;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+   
+}
+.titulo4{
+    font-size: 1.7rem;
+    display: inline-block;
+    transform: rotate(-6deg);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.cinta{
+    width: 20%;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.audio{
+    height: 10px;
+    width: 100px;
+}
+ }
+ 
+  
